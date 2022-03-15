@@ -67,12 +67,14 @@ body {
 .nft-price {
   color: hsl(178, 100%, 50%);
   display: inline-block;
-  margin-right: 32%;
+  /* margin-right: 32%; */
 }
 
 .nft-countdown {
   color: hsl(215, 51%, 70%);
   display: inline-block;
+  position: relative;
+  left: 90px;
 }
 
 hr {

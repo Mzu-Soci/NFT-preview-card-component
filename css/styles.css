@@ -67,7 +67,6 @@ body {
 .nft-price {
   color: hsl(178, 100%, 50%);
   display: inline-block;
-  /* margin-right: 32%; */
 }
 
 .nft-countdown {
@@ -114,58 +113,3 @@ span:hover {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
-
-/* h3, span {
-  color: hsl(0, 0%, 100%);
-}
-
-h3:hover, span:hover {
-  color: hsl(178, 100%, 50%);
-}
-
-p {
-  color: hsl(215, 51%, 70%);
-} */
-
-/* .title {
-  padding: 5px 0;
-} */
-
-/* .nft-price {
-  color: hsl(178, 100%, 50%);
-  display: inline-block;
-  margin: 0;
-  margin-bottom: 15px;
-} */
-
-/* .nft-countdown {
-  display: inline-block;
-  font-size: 16px;
-  position: relative;
-  left: 35%;
-  margin: 0;
-  margin-bottom: 15px;
-} */
-
-/* hr {
-
-  border-top: 1px solid hsl(215, 32%, 27%); ;
-  border-top: 1px solid hsl(215, 32%, 27%);
-} */
-
-/* .creator-image {
-  height: 30px;
-  width: 30px;
-  border: 2px solid hsl(0, 0%, 100%);
-  border-radius: 50%;
-  margin-top: 8px;
-}
-
-.creator-name {
-  display: inline-block;
-  font-size: 16px;
-  margin: 0;
-  margin-left: 10px;
-  position: relative;
-  bottom: 10px;
-} */

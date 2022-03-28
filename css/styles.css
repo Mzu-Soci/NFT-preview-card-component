@@ -1,5 +1,149 @@
 body {
   background-color: hsl(217, 54%, 11%);
+  font-family: 'Outfit', sans-serif;
+}
+
+p {
+  margin: 0;
+  /* font-size: 16px;
+  line-height: 1.8rem; */
+}
+.container {
+  position: fixed;
+  left: 10%;
+  right: 10%;
+  top: 20%;
+}
+
+.content-box {
+  font-size: 18px;
+  line-height: 1.8rem;
+  font-weight: 300;
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 15px;
+  line-height: 1.5rem;
+  max-width: 300px;
+  padding: 20px;
+  margin: auto;
+}
+
+.image {
+  border-radius: 5px;
+  max-width: 300px;
+}
+
+/* Text Content Section */
+.title {
+  color: hsl(0, 0%, 100%);
+  padding-top: 5px;
+}
+
+.title:hover {
+  color: hsl(178, 100%, 50%);
+}
+
+.description {
+  color: hsl(215, 51%, 70%);
+}
+
+.nft-price {
+  color: hsl(178, 100%, 50%);
+  display: inline-block;
+  font-weight: 400;
+}
+
+.nft-countdown {
+  color: hsl(215, 51%, 70%);
+  display: inline-block;
+  text-align: left;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  padding-left: 90px;
+}
+
+hr {
+  border-width: 1px 0 0;
+  border-style: solid;
+  border-color: hsl(215, 51%, 70%);
+}
+
+.creator-image {
+  border: solid 1px hsl(0, 0%, 100%);
+  border-radius: 16px;
+  display: inline-block;
+  width: 10%;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.creator-name {
+  display: inline-block;
+  color: hsl(215, 51%, 70%);
+  position: relative;
+  bottom: 9px;
+}
+
+span {
+  color: hsl(0, 0%, 100%);
+}
+
+span:hover {
+  color: hsl(178, 100%, 50%);
+}
+
+/* Animation */
+.image-box {
+  border-radius: 5px;
+  max-height: 300px;
+  max-width: 300px;
+  position: relative;
+}
+
+.image {
+  border-radius: 5px;
+  display: block;
+  width: 100%;
+}
+
+.overlay {
+  border-radius: 5px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: hsl(178, 100%, 50%, .3);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.25s;
+}
+
+.overlay:hover {
+  opacity: 1;
+}
+
+/* attribution Section */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* Centering container */
+/* .container {
+  position: fixed;
+  left: 10%;
+  right: 10%;
+  top: 25%;
+} */
+/* body {
+  background-color: hsl(217, 54%, 11%);
   padding-top: 8%;
 }
 
@@ -13,10 +157,9 @@ body {
   width: 300px;
   padding: 20px;
   margin: auto;
-}
-
+} */
 /* Animation */
-.image-box {
+/* .image-box {
   border-radius: 5px;
   height: 280px;
   width: 300px;
@@ -48,10 +191,9 @@ body {
 
 .overlay:hover {
   opacity: 1;
-}
-
+} */
 /* Title Section */
-.title {
+/* .title {
   color: hsl(0, 0%, 100%);
 }
 
@@ -102,14 +244,13 @@ span {
 
 span:hover {
   color: hsl(178, 100%, 50%);
-}
-
+} */
 /* attribution Section */
-.attribution {
+/* .attribution {
   font-size: 11px;
   text-align: center;
 }
 
 .attribution a {
   color: hsl(228, 45%, 44%);
-}
+} */

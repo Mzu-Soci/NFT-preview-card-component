@@ -22,7 +22,9 @@ Demonstrate ability to create a web page without tutorial instruction. The codin
 
 ### Screenshot
 
-![](./design/my-solution-desktop-preview.jpg)
+![Desktop Site](Screenshot_Desktop_NFT.jpg)
+![Active States](Screenshot_Desktop_NFT_active.jpg)
+![Active States](Screenshot_Desktop_NFT_active2.jpg)
 
 ## My process
 
